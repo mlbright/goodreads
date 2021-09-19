@@ -7,8 +7,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.expected_conditions import presence_of_element_located
 from selenium.webdriver.support.ui import Select
 
+# Change this to your user
 user = "mlbright@gmail.com"
 
+# Put your goodreads.com password in here
+# This isn't very good security practice: make sure you're the only user on the system
 with open("/tmp/goodreads-pass") as file:
     password = file.read()
 
